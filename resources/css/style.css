@@ -1,15 +1,43 @@
 #header {
   display: flex;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+
 }
 
 #logo {
   display: flex;
-  color: MediumAquamarine;
+  padding-left: 30px;
+  align-items: center;
+  flex-grow: 1;
 }
 
-nav {
+#logo span {
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+
+#menu {
+padding-right: 30px;
+
+}
+
+nav span {
   display: inline-block;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+nav a {
+  color: black;
+  padding: 10px;
 }
