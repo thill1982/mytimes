@@ -5,6 +5,8 @@
   padding-bottom: 10px;
   width: 100%;
   position: fixed;
+  height: 80px;
+  z-index: 1;
 
 }
 
@@ -40,4 +42,55 @@ nav span {
 nav a {
   color: black;
   padding: 10px;
+}
+
+.main {
+  padding-top: 120px;
+  border: 1px solid black;
+  display:flex;
+  align-content: space-between;
+}
+.large {
+  width: 630px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+margin-right: 32px;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+margin-right: 32px;
+}
+
+
+.lead-story-title {
+border: 1px solid black;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.story-title {
+  border: 1px solid black;
+}
+
+.stories {
+
+}
+
+.story-content {
+
+}
+
+.story-footer {
+border: 1px solid black;
 }
