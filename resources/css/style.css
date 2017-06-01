@@ -72,6 +72,23 @@ margin-right: 32px;
 
 .lead-story-title {
 border: 1px solid black;
+background-image: url(../images/img-story-main.png);
+
+}
+
+.lead-story-image {
+  display: flex;
+  font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.story-image {
+  font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
 }
 
 .story {
