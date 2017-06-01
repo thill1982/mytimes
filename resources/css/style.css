@@ -45,13 +45,15 @@ nav a {
 
 .main {
   padding-top: 120px;
-  border: 1px solid black;
   display:flex;
   align-content: space-between;
 }
+
+.text-content {
+    height: 250px;
+}
 .large {
   width: 630px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   margin-right: 32px;
@@ -59,13 +61,13 @@ nav a {
 
 .medium {
   width: 300px;
-  border: 1px solid black;
+
 margin-right: 32px;
 }
 
 .small {
   width: 240px;
-  border: 1px solid black;
+
 margin-right: 32px;
 }
 
@@ -116,15 +118,20 @@ background-image: url(../images/img-story-main.png);
   height: 300px;
 }
 .story {
-  border: 1px solid black;
+
+  display: flex;
+flex-direction: column;
+width: 300px;
+
 }
 
 .story-title {
-  border: 1px solid black;
+
 }
 
 .stories {
-
+display: flex;
+justify-content: space-between;
 }
 
 .story-content {
@@ -132,7 +139,7 @@ background-image: url(../images/img-story-main.png);
 }
 
 .story-footer {
-border: 1px solid black;
+
 font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
